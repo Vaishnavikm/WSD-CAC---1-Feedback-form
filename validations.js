@@ -5,7 +5,7 @@ $("#name").keyup(function()
 {
 if(validatename())
 {
-	 $("#username").css("border","4px solid green");
+	 $("#name").css("border","4px solid green");
 	 $("#messagename").html("<p class='text-success'>VALIDATED</p>")
 }
 else
